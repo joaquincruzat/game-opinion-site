@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Grand Theft Auto V",
+    "id": "01",
+    "rating": 4.48,
+    "released": "2013-09-17",
+    "updated": "2020-09-23",
+    "background_image": "https://cdn.forbes.com.mx/2020/05/Grand-Theft-Auto-V-640x360.jpg"
+  },
+  {
+    "name": "Portal 2",
+    "id": "02",
+    "rating": 4.62,
+    "released": "2011-04-18",
+    "updated": "2020-08-03",
+    "background_image": "https://pivigames.blog/wp-content/uploads/2018/07/portal-2-mac-2844-0-min.jpg"
+  },
+  {
+    "name": "Monster Hunter Rise",
+    "id": "03",
+    "rating": 4.92,
+    "released": "2021-03-26",
+    "updated": "2022-06-30",
+    "background_image": "https://www.monsterhunter.com/rise/assets/images/common/share.png"
+  },
+  {
+    "name": "Dark Souls III",
+    "id": "04",
+    "rating": 4.95,
+    "released": "2016-03-24",
+    "updated": "2021-09-05",
+    "background_image": "https://www.hellofriki.com/wp-content/uploads/2016/02/DARKSOUL_facebook_mini.jpg"
+  },
+  {
+    "name": "The Witcher 3: Wild Hunt",
+    "id": "05",
+    "rating": 4.96,
+    "released": "2016-05-30",
+    "updated": "2010-12-21",
+    "background_image": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1646996408"
+  }
+]
