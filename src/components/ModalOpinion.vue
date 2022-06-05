@@ -4,7 +4,7 @@
       <div class="modal-wrapper">
         <div class="modal-container">
           <div class="modal-header">
-            <h5>Ingresa una opinión sobre el juego:{{}}</h5>
+            <h5>Ingresa una opinión sobre el juego: {{ pordefinir }}</h5>
           </div>
           <div class="modal-body">
             <slot name="body">

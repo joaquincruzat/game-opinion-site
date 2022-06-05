@@ -33,20 +33,17 @@ export default {
     opinion: ''
   }),
   methods: {
-    ...mapActions('opiniones', ['editarOpinion']),
-    volver() {
-      this.$router.push(`/administracion`)
-    },
+    ...mapActions('opinionUser', ['editOpinion']),
     editarOpinionBoton() {
       this.editarOpinion([
         { id: this.$route.params.id },
         {
-          titulo: this.opiniones[this.$route.params.id].titulo,
+          // titulo: this.opiniones[this.$route.params.id].titulo,
           nombre: this.nameUser,
           opinion: this.opinion
         }
       ])
-      this.$router.push(`/administracion`)
+      this.$router.push(`/administracion/`)
     }
   },
   computed: {

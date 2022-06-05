@@ -9,6 +9,7 @@
     <table class="table" v-for="(opinion, index) in opinionUser" :key="index">
       <thead>
         <tr>
+          <th scope="col">#</th>
           <th scope="col">Título del Juego</th>
           <th scope="col">Nombre de Usuario</th>
           <th scope="col">Opinión</th>
@@ -17,6 +18,7 @@
       </thead>
       <tbody>
         <tr>
+          <th scope="row">{{ index + 1 }}</th>
           <td>Por definir</td>
           <td>{{ opinion.nameUser }}</td>
           <td>{{ opinion.opinion }}</td>
