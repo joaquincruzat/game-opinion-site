@@ -9,10 +9,10 @@ export const opinionModule = {
     },
     REMOVE_OPINIONLIST(state, index) {
       state.opinionList.splice(index, 1)
-    },
-    EDIT_OPINIONLIST(state, index) {
-      state.opinionList[(index[0].id = index[1])]
     }
+    // EDIT_OPINIONLIST(state, index) {
+    //   state.opinionList[(index[0].id = index[1])]
+    // }
   },
   actions: {
     addOpinion(context, opinion) {

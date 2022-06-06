@@ -35,18 +35,19 @@
 </template>
 
 <script>
-import { mapActions, mapState } from 'vuex'
+import { mapState } from 'vuex'
 export default {
   computed: {
     ...mapState('opinionUser', {
       opinionUser: (state) => state.opinionList
-    }),
-    methods: {
-      ...mapActions('opinionUser', ['removeOpinion']),
-      redirectEdition(index) {
-        this.$router.push(`/administracion/${index}`)
-      }
-    }
+    })
+    //   methods: {
+    //     ...mapActions('opinionUser', ['removeOpinion']),
+    //     redirectEdition(index) {
+    //       this.$router.push(`/administracion/${index}`)
+    //     }
+    //   }
+    // }
   }
 }
 </script>

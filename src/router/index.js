@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView'
 import AdministracionView from '../views/AdministracionView'
 import OpinionesView from '../views/OpinionesView'
+import NotFoundView from '../views/NotFoundView'
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -26,6 +28,10 @@ const routes = [
     name: 'EditionView',
     props: true,
     component: () => import('../views/EditionView.vue')
+  },
+  {
+    path: '*',
+    component: NotFoundView
   }
 ]
 
